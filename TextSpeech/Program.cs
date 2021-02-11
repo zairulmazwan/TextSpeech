@@ -9,7 +9,7 @@ namespace TextSpeech
         {
             var synthesizer = new SpeechSynthesizer();
             synthesizer.SetOutputToDefaultAudioDevice();
-            synthesizer.Speak("Hi Zairul, all we need to do is to make sure we keep talking");
+            synthesizer.Speak("Hi Zairul, good morning. Have a nice day. 1. Take your breakfast!");
         }
     }
 }
